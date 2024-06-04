@@ -1,0 +1,60 @@
+.from-container {
+    width: 600px;
+    margin: 20px auto;
+    height: 500px;
+    padding-top: 80px;
+    border-radius: 5px;
+    border: 1px solid #b81616;
+    background: #FFF;
+}
+
+.input-email{
+    border-radius: 5px;
+    background: var(--Dark-07, #F3F3F3);
+    margin-left: 120px;
+    width: 350px;
+    height: 40px;
+    flex-shrink: 0;
+    border: none;
+    padding-left: 15px;
+    outline-style: none;
+}
+.input-login{
+    border-radius: 5px;
+    background: var(--Dark-02, #403F3F);
+    margin-left: 120px;
+    width: 350px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #FFF;
+    border: none;
+    outline-style: none;
+}
+.input-password{
+    border-radius: 5px 0px 0px 5px;
+    margin-left: 120px;
+    background: var(--Dark-07, #F3F3F3);
+    width: 320px;
+    height: 40px;
+    padding-left: 15px;
+    flex-shrink: 0;
+    border: none;
+    outline-style: none;
+}
+.input-login:hover{
+    background: var(--Dark-02, #e2cd88);
+}
+.forget-password{
+    border: none;
+    margin-left: 120px;
+    background-color: #FFF;
+    margin-bottom: 15px;
+}
+.container-hide{
+    display: flex;
+}
+.btn-hide{
+    background: var(--Dark-07, #F3F3F3);
+    height: 40px;
+    border-radius: 0px 5px 5px 0px;
+}
